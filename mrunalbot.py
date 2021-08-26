@@ -5,15 +5,7 @@
 #my idea sar dont kang
 #for more bots join @telebotsbymrunal
 
-import os
-os.system("pip install Telethon==1.21.1")
-from telethon import TelegramClient, events, functions, types
-api_id = os.environ.get("APP_ID")
-import os, asyncio
-from os import system
-from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-api_hash = os.environ.get("API_HASH")
-token = os.environ.get("BOT_TOKEN")
+
 client = TelegramClient('register', api_id, api_hash).start(bot_token=token)
 from MrunalIsbest.events import register
 from MrunalIsbest import OWNER_ID
