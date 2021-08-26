@@ -5,16 +5,7 @@
 #my idea sar dont kang
 #for more bots join @telebotsbymrunal
 
-api_id = os.environ.get("API_ID")
-import os, asyncio
-from os import system
-api_hash = os.environ.get("API_HASH")
 
-token = os.environ.get("TOKEN")
-
-client = TelegramClient('register', api_id, api_hash).start(bot_token=token)
-
-from MrunalIsbest.events import register
 
 
 from MrunalIsbest import OWNER_ID
@@ -27,10 +18,12 @@ import random, re
 import glob
 import time
 from telethon.tl.types import InputMessagesFilterPhotos
-
 api_id = os.environ.get("API_ID")
+
 import os, asyncio
+
 from os import system
+
 api_hash = os.environ.get("API_HASH")
 
 token = os.environ.get("TOKEN")
@@ -38,6 +31,7 @@ token = os.environ.get("TOKEN")
 client = TelegramClient('register', api_id, api_hash).start(bot_token=token)
 
 from MrunalIsbest.events import register
+
 FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 #Add telegraph media links of profile pics that are to be used
