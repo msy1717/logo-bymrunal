@@ -2,11 +2,12 @@ import logging
 import os
 import sys
 import time
+import telethon
+import pyrogram
 
 from telethon import TelegramClient
 
 from pyrogram import Client, errors
-from telethon import TelegramClient
 
 StartTime = time.time()
 
