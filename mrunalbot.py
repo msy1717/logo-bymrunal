@@ -8,9 +8,9 @@
 
 
 
-from MrunalIsbest import OWNER_ID
+from Mrunallsbest import OWNER_ID
 #agar coding aati hai tbhi mrunal ko change krna else 100% error so dont blame
-from MrunalIsbest import telethn as tbot
+from Mrunallsbest import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 
