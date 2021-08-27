@@ -4,6 +4,7 @@ import sys
 import time
 import telethon
 import pyrogram
+from telethon import TelegramClient as tg
 
 from telethon import TelegramClient
 
